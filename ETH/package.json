@@ -1,0 +1,23 @@
+{
+  "name": "eth-poc-CrowdFunding",
+  "version": "1.0.0",
+  "description": "basic POC using solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshutoshMohanty13/ETH-POC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshutoshMohanty13/ETH-POC/issues"
+  },
+  "homepage": "https://github.com/AshutoshMohanty13/ETH-POC#readme",
+  "dependencies": {
+    "hardhat": "^2.8.2",
+    "web3": "^1.6.1"
+  }
+}
