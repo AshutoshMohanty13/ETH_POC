@@ -9,9 +9,9 @@ describe("Token Contract", function () {
   let addrs;
 
   beforeEach(async function () {
-    Token = await ethers.getContractFactory("Token");
-    [owner, addr1, addr2, ...addrs] = await ethers.getSigners();
-    hardhatToken = await Token.deploy();
+    Token = await ethers.getContractFactory("Token"); // this line creates the instance for our contract.
+    [owner, addr1, addr2, ...addrs] = await ethers.getSigners(); // getSigners is an object usjng which we can access the accounts
+    hardhatToken = await Token.deploy(); //here it deployes the contract over hardhat.
   });
 
   describe("Deployment", function () {
