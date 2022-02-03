@@ -12,9 +12,25 @@
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
     "@nomiclabs/hardhat-waffle": "^2.0.2",
-    "chai": "^4.3.6",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.4",
-    "hardhat": "^2.8.3"
+    "hardhat": "^2.8.3",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle": "^5.1.41",
+    "truffle-flattener": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^9.1.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^2.4.1",
+    "ethereumjs-util": "^6.2.0",
+    "mocha": "^6.2.3",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "solc": "0.5.16",
+    "truffle-plugin-verify": "^0.4.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
   }
 }
